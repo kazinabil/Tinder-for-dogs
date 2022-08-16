@@ -1,0 +1,157 @@
+body {
+  font-family: "Montserrat";
+}
+
+#title {
+  background-color: #ff0063;
+  color: aliceblue;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat";
+}
+h2 {
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 1;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+}
+
+p {
+  opacity: 75%;
+  color: black;
+}
+
+.boro-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.container-fluid {
+  padding: 3% 15% 13%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0%;
+}
+
+.title-img {
+  width: 60%;
+  transform: rotate(30deg);
+
+  position: absolute;
+}
+
+.feature-box {
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+#features {
+  padding: 5% 15%;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    text-align: center;
+  }
+}
+
+.icon {
+  color: #f65a83;
+}
+
+.icon:hover {
+  color: #ff0063;
+}
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ff0063;
+  color: rgb(255, 255, 255);
+}
+
+.test-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ff0063;
+
+  text-align: center;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+#cta {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ff0063;
+  color: rgb(255, 255, 255);
+}
+
+#footer {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.mecon {
+  padding: 0% 1%;
+}
+.cta-heading {
+  font-size: 2.3rem;
+  line-height: 1.5;
+}
